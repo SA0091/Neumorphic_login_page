@@ -24,16 +24,16 @@
                     <div class="inputWidth text-center">
                         <i class="fa-solid fa-envelope FiconL"></i>
                         <i class="fa-solid fa-xmark FiconR"></i>
-                        <input type="email" placeholder="Enter Your Email" name="ss" oninvalid="validate()" autocomplete="on">
+                        <input type="email" placeholder="Enter Your Email" name="ss" oninvalid="validate()" autocomplete="on" required>
                     </div>
                     <div class="inputWidth text-center">
                         <i class="fa-solid fa-key FiconL"></i>
                         <i class="fa-solid fa-xmark FiconR"></i>
-                        <input type="password" name="forPassword" placeholder="Enter Your Password">
+                        <input class="user-select-none" type="password" name="forPassword" placeholder="Enter Your Password" required>
                     </div>
                     <div class="">
                         <input type="checkbox" onclick="showPass();" class="ms-5 sPass"> Show Password
-                        <a href="#" target="_blank" class="ms-5 link-primary text-decoration-none">Forget Password</a>
+                        <a href="#" target="_blank" class="d-block my-3 my-sm-0 d-sm-inline-block ms-5 link-primary text-decoration-none">Forget Password</a>
                     </div>
                     <div class="text-center my-4">
                         <input onsubmit="return false" type="submit" value="Login">
